@@ -60,6 +60,7 @@ GEM
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     json (1.8.3)
+    jwt (1.5.3)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -145,6 +146,7 @@ DEPENDENCIES
   byebug
   devise (~> 3.5.6)
   jbuilder (~> 2.0)
+  jwt (~> 1.5.3)
   rails (= 4.2.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
