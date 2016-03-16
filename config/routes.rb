@@ -8,5 +8,7 @@ Rails.application.routes.draw do
     resources :profiles, param: :username, only: [:show]
 
     resources :articles, param: :slug, except: [:edit, :new]
+
+    resources :tags, only: [:index]
   end
 end
